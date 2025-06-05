@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+langchain
+faiss-cpu
+beautifulsoup4
+requests
