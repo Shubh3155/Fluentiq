@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()  # Loads .env file
 
 # Configuration
-GOOGLE_API_KEY = st.secrets("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 DEFAULT_VECTORSTORE_NAME = "faiss_vectorstore"  # Change this to your vectorstore name
 
 # Streamlit Config
