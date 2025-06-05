@@ -4,12 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+langchain-community = "*"
 streamlit = "*"
 google-generativeai = "*"
 langchain = "*"
+langchain-google-genai = "*"
 faiss-cpu = "*"
+python-dotenv = "*"
 beautifulsoup4 = "*"
 requests = "*"
+pypdf2 = "*"
+python-docx = "*"
 
 [dev-packages]
 
